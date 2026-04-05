@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Five Sections</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+      }
+      body {
+        margin: 0;
+        max-width: 48rem;
+        margin-inline: auto;
+        padding: 1.5rem;
+      }
+      section {
+        padding: 2rem 0;
+        border-bottom: 1px solid color-mix(in oklab, CanvasText 15%, transparent);
+      }
+      section:last-of-type {
+        border-bottom: none;
+      }
+      h1,
+      h2 {
+        margin: 0 0 0.5rem;
+        font-weight: 600;
+      }
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Page with five sections</h1>
+    </header>
+
+    <main>
+      <section id="section-1" aria-labelledby="heading-1">
+        <h2 id="heading-1">Section 1</h2>
+        <p>Introductory content goes here.</p>
+      </section>
+
+      <section id="section-2" aria-labelledby="heading-2">
+        <h2 id="heading-2">Section 2</h2>
+        <p>Additional details or features.</p>
+      </section>
+
+      <section id="section-3" aria-labelledby="heading-3">
+        <h2 id="heading-3">Section 3</h2>
+        <p>More body copy for this block.</p>
+      </section>
+
+      <section id="section-4" aria-labelledby="heading-4">
+        <h2 id="heading-4">Section 4</h2>
+        <p>Supporting information or examples.</p>
+      </section>
+
+      <section id="section-5" aria-labelledby="heading-5">
+        <h2 id="heading-5">Section 5</h2>
+        <p>Closing notes or call to action.</p>
+      </section>
+    </main>
+  </body>
+</html>
